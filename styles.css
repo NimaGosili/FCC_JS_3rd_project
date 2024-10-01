@@ -1,0 +1,55 @@
+body {
+    background-color: #131515;
+    color : white;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+}
+
+.box {
+    margin-top: calc(50vh - 200px);
+    height: 200px;
+}
+
+.box div:nth-of-type(1){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #339989;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid;
+
+    
+}
+
+
+#user-input {
+    width : 70%;
+}
+
+#results-div {
+    background-color: #7de2e1;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family:monospace;
+    font-weight: 300;
+    color: black;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
